@@ -2,18 +2,14 @@
 
 This repository contains the implementation of **LGEA** for multi-modal entity alignment codes.
 
----
-
 ## Data Sources
 
 - **DBP15K**
-  > Text data: https://github.com/zjukg/MEAformer
-  > Vision raw data: https://github.com/zjukg/MEAformer In Dataset section, a Baidu Cloud file
+  - Text data: https://github.com/zjukg/MEAformer
+  - Vision raw data: https://github.com/zjukg/MEAformer In Dataset section, a Baidu Cloud file
 - **FB & DB & YG**: https://github.com/mniepert/mmkb
 
 > Note: The part data needs to be preprocessed and loaded separately; the raw datasets are not included in this repository.
-
----
 
 ## Usage
 
