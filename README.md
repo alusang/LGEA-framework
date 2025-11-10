@@ -6,7 +6,7 @@ This work has been accepted and published:
 
 Chenglong Lu, Chenxiao Li, Jingwei Cheng, Yongquan Ji, Guoqing Chen, Fu Zhang
 
-*Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
 
 [PDF](https://aclanthology.org/2025.emnlp-main.1684.pdf) | [DOI](10.18653/v1/2025.emnlp-main.1684)  
 
@@ -30,3 +30,17 @@ This repository contains the implementation of **LGEA** for multi-modal entity a
 
 2. **Running the Topic Model**  
    - Experiments related to the topic model can be run using the provided shell script
+
+# Citation
+
+If you find this code to be useful for your research, please consider citing.
+
+```
+@inproceedings{lu2025breaking,
+  title={Breaking the Noise Barrier: LLM-Guided Semantic Filtering and Enhancement for Multi-Modal Entity Alignment},
+  author={Lu, Chenglong and Li, Chenxiao and Cheng, Jingwei and Ji, Yongquan and Chen, Guoqing and Zhang, Fu},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={33141--33155},
+  year={2025}
+}
+```
