@@ -40,8 +40,8 @@ If you find this code to be useful for your research, please consider citing.
   title={Breaking the Noise Barrier: LLM-Guided Semantic Filtering and Enhancement for Multi-Modal Entity Alignment},
   author={Lu, Chenglong and Li, Chenxiao and Cheng, Jingwei and Ji, Yongquan and Chen, Guoqing and Zhang, Fu},
   booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
-  url = "https://aclanthology.org/2025.emnlp-main.1684/",
-  doi = "10.18653/v1/2025.emnlp-main.1684",
+  url={https://aclanthology.org/2025.emnlp-main.1684/},
+  doi={10.18653/v1/2025.emnlp-main.1684},
   pages={33141--33155},
   year={2025}
 }
