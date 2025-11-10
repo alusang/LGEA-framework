@@ -1,3 +1,11 @@
+# Publication
+
+This work has been accepted and published:
+
+**Breaking the Noise Barrier: LLM-Guided Semantic Filtering and Enhancement for Multi-Modal Entity Alignment**
+Chenglong Lu, Chenxiao Li, Jingwei Cheng, Yongquan Ji, Guoqing Chen, Fu Zhang
+Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+
 # LGEA-Framework
 
 This repository contains the implementation of **LGEA** for multi-modal entity alignment codes.
