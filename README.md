@@ -2,9 +2,13 @@
 
 This work has been accepted and published:
 
-**Breaking the Noise Barrier: LLM-Guided Semantic Filtering and Enhancement for Multi-Modal Entity Alignment**
+### Breaking the Noise Barrier: LLM-Guided Semantic Filtering and Enhancement for Multi-Modal Entity Alignment
+
 Chenglong Lu, Chenxiao Li, Jingwei Cheng, Yongquan Ji, Guoqing Chen, Fu Zhang
-Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+
+*Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing
+
+[PDF](https://aclanthology.org/2025.emnlp-main.1684.pdf) | [DOI](10.18653/v1/2025.emnlp-main.1684)  
 
 # LGEA-Framework
 
