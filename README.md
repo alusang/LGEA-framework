@@ -30,6 +30,52 @@ This repository contains the implementation of **LGEA** for multi-modal entity a
 
 2. **Running the Topic Model**  
    - Experiments related to the topic model can be run using the provided shell script
+  
+## [Update] Data Processing
+
+The dataset links above all provide access to the complete data. However, some datasets require additional preprocessing. EA researchers may also use partially preprocessed data provided by others. The required raw data can be found in the data loading files — simply preprocess the data into the expected format and load it accordingly. The overall preprocessing pipeline is listed below.
+
+### 1. Visual Modality
+
+The visual part consists of two components:
+
+- **Image captions and masks**  
+  First, generate image captions using `batch_blip_image_captioning.py`.  
+  Then, use the generated captions together with an LLM in `gene_mask.py` to obtain the corresponding mask values.
+
+- **Visual embeddings**  
+  Extract embedding vectors from images.  
+
+  You may either:
+  - use existing preprocessed visual embeddings (e.g., commonly used ResNet features), or
+  - re-extract embeddings using other vision models.
+
+### 2. Structure, Attribute, and Relation Information
+
+- **Relation and structural information**  
+  The required format for these two modalities remains unchanged and can be directly loaded through the data loading files.
+
+- **Attribute information**  
+  For each entity, remove the entity name from its attribute triples and concatenate the remaining attribute-value pairs into the following format:
+
+  ```python
+  "eid": "[(att1, value1), (att2, value2), ...]"
+
+Then, use `sum_embed.py` to perform summarization and embedding generation, producing the final attribute embedding vectors.
+
+### 3. Model Input
+
+Load the following processed data into the model:
+
+- masks
+- visual embeddings
+- attribute embeddings
+- relation information
+- structural information
+
+### Note
+
+Some experimental code artifacts from earlier research stages (e.g., VAE-related modules) are still retained in the repository. These can be safely ignored and do not affect the correctness of the system or the reported results.
 
 # Citation
 
